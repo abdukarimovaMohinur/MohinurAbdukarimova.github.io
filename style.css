@@ -1,0 +1,232 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+header nav{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+hr{
+    height: 20px;
+    color: black;
+}
+header nav ul{
+    display: flex;
+    color: black;
+    margin-top: 40px;
+}
+header nav ul li a{
+    padding-left: 5px;
+    padding-right: 5px;
+    color: black;
+    flex-wrap: wrap;
+}
+header nav h1{
+    color: black;
+    opacity: 0.8;
+    margin: 20px;
+}
+header nav a p{
+    color: #E4E4E4;
+}
+header nav .menu{
+    display: flex;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: 40px;
+    flex-wrap: wrap;
+}
+header .blok{
+    background-image: url(kattarasm.png);
+    max-width: 1840px;
+    height: 600px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+header .blok1 p{
+    padding-top: 550px;
+    max-width: 1300px;
+    margin: auto;
+    color: white;
+}
+main .main_top ul{
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+    text-align: center;
+    flex-wrap: wrap;
+    color: black;
+}
+main .main_top ul li a{
+    padding-left: 48px;
+    padding-right: 48px;
+    color: black;
+}
+main .main_top .bir{
+    color: #B3B3B3;
+}
+main .main_menu{
+    display: grid;
+    flex-wrap: wrap;
+    grid-template-columns: repeat(4, 1fr);
+    justify-content: space-around;
+    margin: auto;
+    margin-top: 55px;
+}
+main .main_menu span{
+    color: black;
+    opacity: 0.6;
+}
+main .kok{
+    display: flex;
+    width: 302px;
+    height: 56px;
+    background-color: black;
+    color: #E4E4E4;
+    margin: auto;
+    margin-top: 50px;
+    align-items: center;
+    border: none;
+    justify-content: center;
+}
+main .main_rel{
+    margin-top: 80px;
+    background-image: url(Rectangle\ \(5\).png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    max-width: 1600px;
+    height: 600px;
+}
+main .rel p{
+    padding-top: 400px;
+    max-width: 1300px;
+    margin: auto;
+    color: white;
+}
+main .rel button{
+    max-width: 182px;
+    height: 40px;
+    color: black;
+    background-color:#7E6E45;
+    border: none;
+    color: white;
+}
+span .tel{
+    display: flex;
+    justify-content: space-around;
+    max-width: 1600px;
+    margin-top: 100px;
+    height: 690px;    
+    background: #312F2E;
+    border-radius: 0px;    
+}
+span .moon{
+    display: grid;
+    max-width: 1300px;
+    margin: auto;
+    color: white; 
+    grid-template-columns: repeat(2, 1fr);
+    flex-wrap: wrap;
+}
+main h1{
+    margin-top: 50px;
+    text-align: center;
+}
+main .lola{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-content: space-around;
+    margin: auto;
+    text-align: center;
+}
+.lola img{
+    margin-top: 50px;
+}
+main .name{
+
+    margin-top: 50px; 
+    text-align: center; 
+    background-image: url(Rectangle\ \(9\).png); 
+    max-width: 1160px;
+    height: 657px;
+    margin: auto;
+    text-align: center;
+}
+main .uch{
+    text-align: center;
+}
+main .main_main{
+    background-image: url(Rectangle\ \(10\).png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    max-width: 1600px;
+    height: 600px;   
+    margin-top: 50px; 
+    text-align: center;
+    color: white;
+    
+}
+main .main_main p{
+    margin-top: 380px;
+}
+main .main_main h3{
+    padding-top: 300px;
+}
+
+
+
+
+
+
+@media screen and (max-width: 980px){
+    .tel .moon{
+        display: grid;
+        grid-template-columns: auto;
+    }
+    
+}
+@media (max-width: 1285px){
+    span .moon{
+        width: auto;
+        padding: 0px 15px;
+    }
+}
+
+
+
+
+@media screen and (max-width: 1055px){
+    main .lola{
+        display: grid;
+        grid-template-columns: auto ;
+    }
+}
+@media screen and (max-width: 1115px){
+    .main_kel .main_menu{
+        display: grid;
+        grid-template-columns: auto auto auto;
+    }
+}
+@media screen and (max-width: 843px){
+    .main_kel .main_menu{
+        display: grid;
+        grid-template-columns: auto auto;
+    }
+}
+@media screen and (max-width: 563px){
+    .main_kel .main_menu{
+        display: grid;
+        grid-template-columns: auto;
+    }
+}
+
+
+@media (max-width: 226px){
+    header{
+        width: calc(100% /3);
+    }
+}
